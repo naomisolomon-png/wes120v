@@ -1,11 +1,12 @@
 h1 {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-color: lightskyblue;
+color: rgb(82, 173, 225);
 text-align: center; }
 h2 {text-align: center;
-text-decoration-style: solid;}
+text-decoration-style: solid; }
 p {text-align: center;}
 img {
   display: block;
   margin: auto;
-  width: 30%; }
+  width: 30%;
+  clip-path: circle(50%); }
 body {background-color:antiquewhite;}
