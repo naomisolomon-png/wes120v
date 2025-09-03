@@ -1,0 +1,11 @@
+h1 {font-size:xx-large;
+color: rgb(97, 53, 139);
+text-align: center;}
+h2 {text-decoration-style: solid;
+font-style: oblique}
+body {background-color:antiquewhite;}
+img {
+  display: block;
+  margin: auto;
+  width: 30%;
+  clip-path: circle(40%);}
