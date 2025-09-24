@@ -1,6 +1,5 @@
 h1 {font-size:xx-large;
-color:darkred;
-text-align: center;}
-h2 {text-decoration-style: solid;
-font-style: oblique}
-body {background-color:antiquewhite;}
+text-align: center;
+color:rgb(34, 96, 135);}
+body {background-color:rgb(197, 206, 217);}
+li {font-size:x-large}
