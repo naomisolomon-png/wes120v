@@ -1,6 +1,6 @@
-h1 {font-size:xx-large;
-color: rgb(82, 173, 225);
-text-align: center; }
+header {font-size:xx-large;
+color: #0094a1;
+text-align: center;}
 h2 {text-align: center;
 text-decoration-style: solid;
 font-style: oblique}
@@ -9,6 +9,6 @@ img {
   display: block;
   margin: auto;
   width: 30%;
-  clip-path: circle(50%);}
+  clip-path:circle(50%);}
 body {background-color:antiquewhite;}
 font-family: Georgia, 'Times New Roman', Times, serif;}

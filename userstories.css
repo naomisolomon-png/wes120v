@@ -1,7 +1,20 @@
-h1 {font-size:xx-large;
-color:rgb(47, 71, 47);
+header {font-size:xx-large;
+color:#0028a1;
 text-align: center;}
 h2 {text-decoration-style: solid;
 font-style: oblique;
-color:rgb(47, 71, 47);}
-body {background-color:rgba(214, 222, 196, 0.921);}
+color:#0028a1}
+body {background-color:rgb(231, 232, 235)}
+.flex-container {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;}
