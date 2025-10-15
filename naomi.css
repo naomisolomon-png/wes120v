@@ -43,12 +43,11 @@ ul.topnav li a:hover {
 h1 {font-size:xx-large;
 color: #f1f1f1;
 text-align: center;}
-h2 {text-align: center;
+p {text-align: center;
 text-decoration-style: solid;
 font-style: oblique;
 color:#f1f1f1;}
-p {text-align: center;
-color:#f1f1f1;}
+
 img {
   display: block;
   margin: auto;
@@ -57,3 +56,12 @@ img {
 
 body{background-color:#92cae0;
 font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center; }
