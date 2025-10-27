@@ -1,3 +1,5 @@
+body {background-color:#0094a1;}
+
 header {
   background-color:#f1f1f1;
   text-align: center;
@@ -34,12 +36,11 @@ h1 {
   color:#515151;
   padding: 10px;}
 
-body {background-color:#0094a1;}
 
 .flex-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;}
 
