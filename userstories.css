@@ -36,13 +36,18 @@ h1 {
   color:#515151;
   padding: 10px;}
 
-h2 {
-  background-color:#0094a1;
-  display: inline-block; 
-  text-align: center; 
-  color:#f1f1f1;}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;;
+  justify-content: center;
+  align-items: center;}
 
-p {
-  display: inline-block; 
-  text-align: center; 
-  color:#f1f1f1;}
+.flex-container > div {
+  background-color:#0094a1;
+  width: 800px;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  color: #f1f1f1;}
