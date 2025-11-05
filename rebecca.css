@@ -1,56 +1,32 @@
-header {
-  background-color:#f1f1f1;
-  text-align: center;
-  line-height: 75px;
-  font-size: 50px;
-  font-weight: bold;
-  color:#005ea1;
-  padding: 10px;}
+body {
+  background-color: aquamarine;
+}
 
-ul.topnav {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #f1f1f1;
-  justify-content:center;}
-
-ul.topnav li a {
-  display: block;
-  color: #515151;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-weight: bold;}
-
-ul.topnav li a:hover {
-  background-color:#515151;
-  color:#f1f1f1;}
-
-body {background-color: aquamarine;}
-
-h1
- { color: blue;
+h1 {
+  color: blue;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;}
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 
 .overskrift {
   color: pink;
   background-color: rgb(255, 127, 127);
   padding: 16px;
-  border-radius: 25px;}
-  
-  
-img 
- { width: 380px;}
+  border-radius: 25px;
+}
+img {
+  width: 380px;
+}
 
 button {
   padding: 20px;
   border: none;
   border-radius: 100px;
-  margin: 20px;}
-
-p 
- {font-family: Georgia, "Times New Roman", Times, serif;}
-
-h2 
- {font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;}
+  margin: 20px;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
