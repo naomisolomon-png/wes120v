@@ -1,20 +1,15 @@
-&lt;!doctype html&gt;
+HTML: <br />
 <br />
-&lt;html&gt;
-<br />
-    &lt;head&gt;
-    <br />
+&lt;!doctype html&gt; <br />
+&lt;html&gt; <br />
+    &lt;head&gt; <br />
         &lt;title&gt; Naomis side
-        &lt;/title&gt;
-        <br />
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;
-href=&quot;naomi.css&quot; /&gt;
-<br />
-    &lt;/head&gt;
-    <br />
-&lt;body&gt;
-<br />
-   &lt;header&gt; SoMe Akademiet &lt;/header&gt;
+        &lt;/title&gt; <br />
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; <br />
+href=&quot;naomi.css&quot; /&gt; <br />
+    &lt;/head&gt; <br />
+&lt;body&gt; <br />
+   &lt;header&gt; SoMe Akademiet &lt;/header&gt; <br />
 <br />
 &lt;ul class=&quot;topnav&quot;&gt; <br />
   &lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Hjem&lt;/a&gt;&lt;/li&gt; <br />
@@ -26,18 +21,109 @@ href=&quot;naomi.css&quot; /&gt;
   &lt;li&gt;&lt;a href=&quot;agilemetoder.html&quot;&gt;Agile metoder&lt;/a&gt;&lt;/li&gt; <br />
   &lt;li&gt;&lt;a href=&quot;gk.html&quot;&gt;Gruppekontrakt&lt;/a&gt;&lt;/li&gt; <br />
 &lt;/ul&gt; <br />
-
-    &lt;h1&gt; Naomi Amalie Solomon &lt;/h1&gt; 
 <br />
-    &lt;p&gt; Bli bedre kjent med meg! &lt;/p&gt;
-    <br />
+    &lt;h1&gt; Naomi Amalie Solomon &lt;/h1&gt; <br />
+<br />
+    &lt;p&gt; Bli bedre kjent med meg! &lt;/p&gt; <br />
 &lt;div class=&quot;flex-container&quot;&gt; <br />
     &lt;div&gt; Jeg er 28 &amp;aring;r gammel og bor i Larvik. &lt;/div&gt; <br />
     &lt;div&gt;Jeg studerer IT og ledelse p&amp;aring; USN &lt;a href=&quot;https://www.usn.no/om-usn/campusene/vestfold/&quot;&gt;Campus Vestfold&lt;/a&gt; &lt;/div&gt; <br />
     &lt;div&gt; Jeg jobber deltid p&amp;aring; Meny &amp;Oslash;ya i Larvik. &lt;/div&gt; <br />
 &lt;/div&gt; <br />
-
+<br />
     &lt;img src=&quot;https://i.postimg.cc/FzLdZnm3/Profilbilde1.jpg&quot; alt=&quot;Dette er et profilbilde av meg&quot;/&gt; <br />
-
+<br />
+&lt;div class=&quot;center-container&quot;&gt; <br />
+  &lt;button&gt; <br />
+    &lt;a href=&quot;naomikode.html&quot;&gt;Min kode&lt;/a&gt; <br />
+  &lt;/button&gt; <br />
+&lt;/div&gt; <br />
+<br />
 &lt;/body&gt; <br />
 &lt;/html&gt; <br />
+ <br />
+ CSS: <br />
+ <br />
+header { <br />
+  background-color:#f1f1f1; <br />
+  text-align: center; <br />
+  line-height: 75px; <br />
+  font-size: 50px; <br />
+  font-weight: bold; <br />
+  color:#005ea1; <br />
+  padding: 10px;} <br />
+<br />
+ul.topnav { <br />
+  display: flex; <br />
+  list-style-type: none; <br />
+  margin: 0; <br />
+  padding: 0; <br />
+  background-color: #f1f1f1; <br />
+  justify-content:center;} <br />
+<br />
+ul.topnav li a { <br />
+   display: block; <br />
+   color: #515151; <br />
+   padding: 14px 16px; <br />
+   text-decoration: none; <br />
+   font-weight: bold;} <br />
+<br />
+ul.topnav li a:hover { <br />
+   background-color:#515151; <br />
+   color:#f1f1f1;} <br />
+<br />
+.flex-container { <br />
+    display: flex; <br />
+   flex-wrap: wrap; <br />
+   justify-content: center;} <br />
+<br />
+.flex-container &gt; div { <br />
+  background-color: #f1f1f1; <br />
+  width: 500px; <br />
+  margin: 10px; <br />
+  text-align: center; <br />
+  line-height: 75px; <br />
+  font-size: 30px; <br />
+  color:#515151;} <br />
+<br />
+h1 { <br />
+   font-size:xx-large; <br />
+   color: #f1f1f1; <br />
+   text-align: center;} <br />
+<br />
+p { <br />
+   text-align: center; <br />
+   font-size: x-large; <br />
+   text-decoration-style: solid; <br />
+   color:#f1f1f1;} <br />
+<br />
+img { <br />
+  display: block; <br />
+  margin: auto; <br />
+  width: 30%; <br />
+  clip-path:circle(50%);} <br />
+<br />
+body{background-color:#6ba7d1; <br />
+font-family: Georgia, &apos;Times New Roman&apos;, Times, serif;} <br />
+<br />
+.flex-container &gt; div { <br />
+  background-color: #f1f1f1; <br />
+  width: 500px; <br />
+  margin: 10px; <br />
+  text-align: center; <br />
+  line-height: 50px; <br />
+  font-size: 20px; } <br />
+<br />
+.center-container { <br />
+  display: flex; <br />
+  justify-content: center; <br />
+  align-items: center;} <br />
+<br />
+button {
+  font-family:Georgia, &apos;Times New Roman&apos;, Times, serif; <br />
+  background-color:#f1f1f1; <br />
+  text-align: center; <br />
+  line-height: 50px; <br />
+  font-size: 20px; <br />
+  color:#005ea1;} <br />
+<br />
