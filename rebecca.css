@@ -26,35 +26,31 @@ ul.topnav li a:hover {
   background-color:#515151;
   color:#f1f1f1;}
 
-body {
-  background-color: aquamarine;
-}
+body { background-color: aquamarine;}
 
-h1 {
-  color: blue;
+h1
+ { color: blue;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;}
 
 .overskrift {
   color: pink;
   background-color: rgb(255, 127, 127);
   padding: 16px;
-  border-radius: 25px;
-}
-img {
-  width: 380px;
-}
+  border-radius: 25px;}
+  
+  
+img 
+ { width: 380px;}
 
 button {
   padding: 20px;
   border: none;
   border-radius: 100px;
-  margin: 20px;
-}
-p {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-h2 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
+  margin: 20px;}
+
+p 
+ {font-family: Georgia, "Times New Roman", Times, serif;}
+
+h2 
+ {font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;}
